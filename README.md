@@ -57,4 +57,6 @@ These examples only scratch the surface of what Laravel’s authorization framew
 
 ## Conclusion
 
-The aforementioned functionalities are just some of the more common ones that every developer should be aware of but there is a lot more that Laravel has to offer including CSRF protection and rate-limiting.  We’ve only just begun in the world of thwarting hackers with Laravel, but we are sure you’ll want to explore the rest on your own.  Now go put the knowledge you’ve just gained to good use and keep the streets safe from those nosy hackers! If you want to learn more or need help with an app idea or existing project, [contact us](https://www.appsquire.com/#Contact-Us) today.
+The aforementioned functionalities are just some of the more common ones that every developer should be aware of but there is a lot more that Laravel has to offer including CSRF protection and rate-limiting.  We’ve only just begun in the world of thwarting hackers with Laravel, but you should now have a good start on exploring the rest on your own.  Now go put the knowledge you’ve just gained to good use and keep the streets safe from those nosy hackers! 
+
+If you want to learn more or need help with an app idea or existing project, [contact us](https://www.appsquire.com/#Contact-Us) today.
