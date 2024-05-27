@@ -17,7 +17,6 @@ To simply look like this in Eloquent with automatically parameterized input.
 ```
 $username = [value directly obtained from user];
 User::where(‘username’, $username)->first();
-
 ```
 
 Although Laravel helps keep your database queries safe, you should always validate user inputs; both for database queries and anywhere else user inputs are being used to control backend functionalities.  The number one rule on the street is to never trust user input.  If no input validation is implemented for file uploads, hackers could DDOS your server or possibly even cause a remote code execution (RCE) if they can upload (and afterwards open) PHP files.  File name inputs that aren’t sanitized could possibly lead to path traversal attacks.  Even ignoring the security aspect of input validation, it prevents the user-supplied input from being gibberish, such as a user inputting the word “cheeseburger” as their age.  Writing validators is simple and easy but they are very powerful.  A manually created validator is shown below and there is an even simpler automatic version that can be run as an extension directly on a request object.
