@@ -45,7 +45,7 @@ public function update(?User $user, Note $note): bool
     return $user?->id === $note->author_user_id;
 }
 ``` 
-The check can be easily called in any function that has a reference to the note model with the gate authorize function. In this example the check would look like `Gate::authorize('update', $note);`.
+The check can be easily called in any function that has a reference to the note model with the gate authorize function. In this example the check would look like `Gate::authorize('update', $note);`
 
 Laravel will automatically pass the current user and note model to the security policy function and verify that the user is authorized to update the note.  If the check fails, Laravel will throw a 403 exception and go no further.  The security policies can also be used as middleware and run the function before a page is even reached.  For example, the code below wouldn’t allow an unauthorized user to view a secret note page.
 ```
